@@ -1,53 +1,102 @@
-<html>
-  <head>
-    <title>Multiplayer TIC TAC TOE</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lobster+Two' rel='stylesheet' type='text/css'>
-    
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://92.234.135.23:8080/socket.io/socket.io.js"></script>
-  </head>
-  <body>
-    
-    <div class='wrapper'>
-      <div class='game'>
-        <h1>Game</h1>
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Moja Strona</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Podstawowy kurs języka HTML." />
+        <meta name="keywords" content="html, podstawy, kurs, składnia, nauka, kodowanie"/>
         
-        <div class='gameboard'>
-        <table border='0' class='table'>
-          <tr>
-            <td class='cell' id='1' onclick='move("1");'></td>
-            <td class='cell' id='2' onclick='move("2");'></td>
-            <td class='cell' id='3' onclick='move("3");'></td>
-          </tr>
-          <tr>
-            <td class='cell' id='4' onclick='move("4");'></td>
-            <td class='cell' id='5' onclick='move("5");'></td>
-            <td class='cell' id='6' onclick='move("6");'></td>
-          </tr>
-          <tr>
-            <td class='cell' id='7' onclick='move("7");'></td>
-            <td class='cell' id='8' onclick='move("8");'></td>
-            <td class='cell' id='9' onclick='move("9");'></td>
-          </tr>
-        </table>
-          <p class='grey'><b>Game Status:</b> <span class='status'>IDLE</span></p> 
-        </div>
-        
-      </div>
-      <div class='chat'>
-        <h1>Chat</h1>
-        <div class='chat-con'>
-          <div class='sent-message'>
-            <b>Kieran:</b> Test Message!
-          </div>
-          <div class='sent-message'>
-            <b>Kieran:</b> Test Message!
-          </div>
-        </div>
-        <textarea class='message'></textarea>
-      </div>
-    </div>
-    
-  </body>
-</html>
+     <style>
+table {font-family: arial, sans-serif;  border-collapse: collapse; width: 100%;}
 
+td, th {border: 1px solid #dddddd;  text-align: left;  padding: 8px;}
+
+tr:nth-child(even) {background-color: #dddddd;}
+    </style>
+
+    </head>
+    
+    
+    
+    <body style="background-color:DeepSkyBlue;">
+
+        Ignoruj ten tekst <!-- komentarz -->
+    
+        <div style="background-color:lightblue; color:black">
+        
+        
+        
+        
+        
+        
+        <h1>Fajna strona</h1>
+        <hr>
+        
+        <h2>Rzeczy na mojej stronie</h2>
+        
+        <p  title="Mądrość ludowa" style="color:red; font-family:verdana">
+        Na świecie jest 10 rodzajów ludzi:<br>
+        ci, którzy rozumieją liczby binarne i ci, którzy nie.
+        </p>
+
+        <p title="Język angielski jest dziwny" >
+        Time flies like an arrow; fruit flies like a banana
+        </p>
+
+        <p style = "font-size: 10px; color:white; background:url(https://allegro.stati.pl/AllegroIMG/PRODUCENCI/NINTENDO/Switch/Gry/Super-Smash-Bros-Ultimate/a1-super-smash-bros-ultimate.jpg);">
+        <b>This text is bold</b>    <br>
+        <i>This text is italic</i>    <br>
+        This is<sub> subscript</sub> and <sup>superscript</sup>    <br>
+        <del>This text is crossed</del>    <br>
+        <ins>This text is underlined</ins>    <br>
+        <q>This text is quoted</q>    <br>
+        </p>
+        <blockquote>This text is blockquoted</blockquote>    <br>
+        
+
+
+    <pre>
+    Line 1
+    Line 2
+    Line 3
+    </pre>
+      
+
+        <p><a href ="https://www.youtube.com/watch?v=oHg5SJYRHA0">Bardzo ważny link</a> </p>
+        
+
+        <img src="w3schools.jpg" width="104" height="142" alt=
+        "Ten obraz istnieje tylko w testerze w3s. W innych przypadkach wyświetli się ten tekst
+        (lub gdyby go nie było, puste pole rozmiaru WIDTH HEIGHT">
+        
+        <br>
+
+        
+        <img title="mapa" src="https://lh3.googleusercontent.com/proxy/7upTna5VwVjJABBtJrCBsYA7Cc5OE42iRP94lb91QOxn3I1pfxEFlTz6nKBFNu1ll-S9FPKd7cBIkldWrXCbF8pRwNEtNDkdEVwiBZt7KfedoQ">
+        
+         <button>Nic nie robię</button>
+
+     <button onclick="alert('NIIIIIIC')" > Co się stanie jak mnie klikniesz?</button>
+         
+cokolwiek powiesz po łacinie, brzmi mądrze
+        
+ 
+
+
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
