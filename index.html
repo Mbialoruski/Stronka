@@ -34,6 +34,59 @@ tr:nth-child(even) {background-color: #dddddd;}
         <hr>
         
         <h2>Rzeczy na mojej stronie</h2>
+            
+            <html>
+  <head>
+    <title>Multiplayer TIC TAC TOE</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lobster+Two' rel='stylesheet' type='text/css'>
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://92.234.135.23:8080/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    
+    <div class='wrapper'>
+      <div class='game'>
+        <h1>Game</h1>
+        
+        <div class='gameboard'>
+        <table border='0' class='table'>
+          <tr>
+            <td class='cell' id='1' onclick='move("1");'></td>
+            <td class='cell' id='2' onclick='move("2");'></td>
+            <td class='cell' id='3' onclick='move("3");'></td>
+          </tr>
+          <tr>
+            <td class='cell' id='4' onclick='move("4");'></td>
+            <td class='cell' id='5' onclick='move("5");'></td>
+            <td class='cell' id='6' onclick='move("6");'></td>
+          </tr>
+          <tr>
+            <td class='cell' id='7' onclick='move("7");'></td>
+            <td class='cell' id='8' onclick='move("8");'></td>
+            <td class='cell' id='9' onclick='move("9");'></td>
+          </tr>
+        </table>
+          <p class='grey'><b>Game Status:</b> <span class='status'>IDLE</span></p> 
+        </div>
+        
+      </div>
+      <div class='chat'>
+        <h1>Chat</h1>
+        <div class='chat-con'>
+          <div class='sent-message'>
+            <b>Kieran:</b> Test Message!
+          </div>
+          <div class='sent-message'>
+            <b>Kieran:</b> Test Message!
+          </div>
+        </div>
+        <textarea class='message'></textarea>
+      </div>
+    </div>
+    
+  </body>
+</html>
         
         <p  title="Mądrość ludowa" style="color:red; font-family:verdana">
         Na świecie jest 10 rodzajów ludzi:<br>
